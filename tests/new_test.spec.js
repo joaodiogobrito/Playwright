@@ -1,4 +1,4 @@
-const { HomePage } = require('../pages/Homepage.js');
+const { HomePage } = require('/pages/Homepage.js');
 import { test, expect, page } from '@playwright/test';
 
 test('test', async ({ page }) => {
