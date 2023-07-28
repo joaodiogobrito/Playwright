@@ -30,8 +30,7 @@ exports.HomePage = class Homepage {
     
     //Top Tabs Navigation
     async navigateToArea(area)
-    {   await this.page.sleep(3000);
-        await this.page.getByRole('link', { name: `${area}`}).click();
+    {  await this.page.getByRole('link', { name: `${area}`}).click();
     }
 
     //Alerts
